@@ -1,4 +1,5 @@
 # springboot
 ----
-一个springboot的学习项目
+学习IDEA的使用及springboot的开发
+
 
