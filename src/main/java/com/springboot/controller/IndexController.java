@@ -1,5 +1,6 @@
 package com.springboot.controller;
 
+import io.swagger.annotations.ApiOperation;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -14,6 +15,7 @@ import org.springframework.web.multipart.MultipartFile;
 @EnableAutoConfiguration
 public class IndexController {
 
+    @ApiOperation(value = "首页", notes = "测试项目首页")
     @RequestMapping(value = "/index",method = RequestMethod.GET)
     public String index(){
         return "index";
