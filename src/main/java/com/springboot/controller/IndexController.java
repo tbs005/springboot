@@ -12,9 +12,9 @@ import org.springframework.web.multipart.MultipartFile;
  */
 @RestController
 @EnableAutoConfiguration
-public class Hello {
+public class IndexController {
 
-    @RequestMapping(value = "/",method = RequestMethod.GET)
+    @RequestMapping(value = "/index",method = RequestMethod.GET)
     public String index(){
         return "index";
     }
