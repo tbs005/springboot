@@ -29,7 +29,6 @@ public class SwaggerConfig {
     }
 
     private ApiInfo apiInfo(){
-        //return new ApiInfo("Spring boot 学习项目","接口文档","1.0","termsOfServiceUrl",new Contact("oldfeel", "", "tbs005@qq.com"),"license", "licenseUrl");
         return new ApiInfoBuilder().title("Spring boot 学习项目")
                 .description("接口文档")
                 .contact(new Contact("tbs005","url","tbs005@qq.com"))

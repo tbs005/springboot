@@ -22,7 +22,7 @@ public class IndexController {
     public String index(Model model){
         User user = new User(1L,"张三","123","qq@qq.com");
         model.addAttribute("user",user);
-        return "Index";
+        return "index";
     }
     @RequestMapping(value = "/upload",method = RequestMethod.POST)
     public String upload(@RequestParam(name = "uploadFile")MultipartFile file){
